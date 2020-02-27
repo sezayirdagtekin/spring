@@ -6,7 +6,7 @@
 </head>
 <body>
 
-			<h1>Say hello:</h1>
+			<h1>Greeting Page</h1>
 			<h2>Message: ${message}</h2>
 
 

@@ -6,7 +6,7 @@
 </head>
 <body>
 
-			<h1>Spring Boot Web JSP Example</h1>
+			<h1>Registration page</h1>
 			<h2>Message: ${message}</h2>
 
 

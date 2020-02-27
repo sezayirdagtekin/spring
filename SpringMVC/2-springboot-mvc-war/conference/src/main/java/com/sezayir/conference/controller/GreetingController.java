@@ -1,4 +1,4 @@
-package com.sezayir.conference;
+package com.sezayir.conference.controller;
 
 import java.util.Map;
 
@@ -7,21 +7,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class ConferenceController {
+public class GreetingController {
 	
-	
-	   @RequestMapping("/")
-	    public String home(Map<String, Object> model) {
-	        model.put("message", "Welcome to mainpage !!!");
-	        return "welcome";
-	    }
-	   
-	@GetMapping("/hello")
+	@GetMapping("/greeting")
 	public String sayHello(Map<String,Object> model) {
 		
 	    model.put("message", "Hello Mvc");
 
-		return "hello";
+		return "greeting";
 		
 	}
 
