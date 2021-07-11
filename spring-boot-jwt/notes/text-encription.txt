@@ -1,0 +1,2 @@
+Encrypt some text. 
+https://bcrypt-generator.com/
