@@ -1,0 +1,26 @@
+
+1- Run  gray log with docker-compose
+
+sezayir.dagtekin@wisgndt902 MINGW64 /c/github/spring/springboot-graylog/src/main/resources (master)
+$ docker-compose up -d
+Creating network "resources_graylog" with driver "bridge"
+Creating resources_mongo_1         ... done
+Creating resources_elasticsearch_1 ... done
+Creating resources_graylog_1       ... done
+
+2- login gray log  with admin/admin
+    http://localhost:9000/
+
+3- create 
+Launch new GELF UDP input
+
+4. start application  and call 
+http://localhost:8080/greeting
+
+5-  press show messages
+
+
+
+
+
+
